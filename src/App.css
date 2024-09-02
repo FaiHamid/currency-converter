@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #d4dff5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.whiteInput .MuiInputBase-root {
+  background-color: #f3f2f2;
+}
+
+.whiteInput .MuiInputLabel-root {
+  color: #020202; 
+  font-weight: 700;
+}
+
+.whiteInput .MuiSelect-select {
+  background-color: #f3f2f2;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.button_container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.inputError {
+  outline: red;
+}
+
+.errorText {
+  color: rgb(226, 21, 21);
+  margin-top: 0;
+  font-size: small;
+  padding-right: 80%;
+}
